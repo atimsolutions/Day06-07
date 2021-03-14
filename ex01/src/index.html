@@ -1,0 +1,204 @@
+
+<html>
+<head>
+    <title>Gallery`s page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+  
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  
+}
+
+
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+  max-width: 400px;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+}
+
+
+.container {
+  position: relative;
+  display: none;
+}
+
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+ .gallery{
+    
+ }
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+    .desc {
+        width: 400px;
+        text-align: justify;
+    }
+    .title1 {
+        color: lightskyblue;
+    }
+
+</style>
+</head>
+<body>
+<title></title>
+<div style="text-align:center">
+  
+</div>
+<h2 algin:centre>Card Gallery</h2>
+
+<div class=gallery>
+<div class="row">
+  <div class="column">
+    <div class="column">
+        <img src="..\photos\image1.jpg" alt="" width="400" height="300" onclick="myFunction(this);">
+        <div class="title1">
+        <p>Lorem ipsum</p>
+        </div>
+        <div class="desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enima ad minim veniam, quis nostrud exrcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in valuptate velit esse cillum dolore ue fuiat nulla pariatura</p>
+        </div>
+    </div>
+    
+    <p></p>
+  </div>
+  <div class="column">
+    <img src="..\photos\image2.jpg" alt="" width="400" height="300" onclick="myFunction(this);">
+    <div class="title1">
+        <p>Lorem ipsum</p>
+        </div>
+        <div class="desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enima ad minim veniam, quis nostrud exrcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in valuptate velit esse cillum dolore ue fuiat nulla pariatura</p>
+        </div>
+  </div>
+  <div class="column">
+    <img src="..\photos\image3.jpg" alt="" width="400" height="300" onclick="myFunction(this);">
+    <div class="title1">
+        <p>Lorem ipsum</p>
+        </div>
+        <div class="desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enima ad minim veniam, quis nostrud exrcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in valuptate velit esse cillum dolore ue fuiat nulla pariatura</p>
+        </div>
+  </div>
+</div>
+
+<div class="row">
+    <div class="column">
+      <img src="..\photos\image4.jpg" alt="" width="400" height="300" onclick="myFunction(this);">
+      <div class="title1">
+        <p>Lorem ipsum</p>
+        </div>
+        <div class="desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enima ad minim veniam, quis nostrud exrcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in valuptate velit esse cillum dolore ue fuiat nulla pariatura</p>
+        </div>
+    </div>
+    <div class="column">
+      <img src="..\photos\image5.jpg" alt="" width="400" height="300" onclick="myFunction(this);">
+      <div class="title1">
+        <p>Lorem ipsum</p>
+        </div>
+        <div class="desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enima ad minim veniam, quis nostrud exrcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in valuptate velit esse cillum dolore ue fuiat nulla pariatura</p>
+        </div>
+    </div>
+    <div class="column">
+      <img src="..\photos\image6.jpg" alt="" width="400" height="300" onclick="myFunction(this);">
+      <div class="title1">
+        <p>Lorem ipsum</p>
+        </div>
+        <div class="desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enima ad minim veniam, quis nostrud exrcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in valuptate velit esse cillum dolore ue fuiat nulla pariatura</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img src="..\photos\image7.jpg" alt="" width="400" height="300" onclick="myFunction(this);">
+      <div class="title1">
+        <p>Lorem ipsum</p>
+        </div>
+        <div class="desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enima ad minim veniam, quis nostrud exrcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in valuptate velit esse cillum dolore ue fuiat nulla pariatura</p>
+        </div>
+    </div>
+    <div class="column">
+      <img src="..\photos\image8.jpg" alt="" width="400" height="300" onclick="myFunction(this);">
+      <div class="title1">
+        <p>Lorem ipsum</p>
+        </div>
+        <div class="desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enima ad minim veniam, quis nostrud exrcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in valuptate velit esse cillum dolore ue fuiat nulla pariatura</p>
+        </div>
+    </div>
+    <div class="column">
+      <img src="..\photos\image9.jpg" alt="" width="400" height="300" onclick="myFunction(this);">
+      <div class="title1">
+        <p>Lorem ipsum</p>
+        </div>
+        <div class="desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enima ad minim veniam, quis nostrud exrcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in valuptate velit esse cillum dolore ue fuiat nulla pariatura</p>
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" width="800" height="600">
+  <div id="imgtext"></div>
+</div>
+</div>
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+</body>
+</html>
